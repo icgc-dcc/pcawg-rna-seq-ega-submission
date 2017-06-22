@@ -1,0 +1,37 @@
+{
+    "analysis": {
+        "analysisCenter": "EBI-EMBL", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-05-01T10:32:45"
+    }, 
+    "sample": {
+        "genderId": "male", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "tumor_4189035_RNA", 
+        "region": "", 
+        "subjectId": "4189035", 
+        "organismPart": "", 
+        "collab_metadata_xml": "TopHat2/collab_metadata_xmls/e73d0b11-c5e5-5c8e-ad87-81374ec5334f_metadata.xml", 
+        "submittedSpecimenId": "tumor_4189035", 
+        "caseOrControlId": 0, 
+        "donorId": "DO52665", 
+        "phenotype": "Malignant Lymphoma", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.cdb198fe-d4c9-11e4-904d-b61559633223.TopHat2.v1.bam", 
+            "PCAWG.cdb198fe-d4c9-11e4-904d-b61559633223.TopHat2.v1.bam.bai"
+        ]
+    }
+}

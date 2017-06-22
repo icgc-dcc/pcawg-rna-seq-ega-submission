@@ -1,0 +1,36 @@
+{
+    "analysis": {
+        "analysisCenter": "MSKCC", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-04-27T23:41:41"
+    }, 
+    "sample": {
+        "genderId": "male", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "278-01-8TR", 
+        "region": "", 
+        "subjectId": "278", 
+        "organismPart": "", 
+        "collab_metadata_xml": "STAR/collab_metadata_xmls/d62f69e2-035d-5103-9325-619f4d547105_metadata.xml", 
+        "submittedSpecimenId": "278-01-8TR", 
+        "caseOrControlId": 0, 
+        "donorId": "DO6552", 
+        "phenotype": "Chronic Lymphocytic Leukemia", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.a5cf5506-d221-11e4-8475-47acfb958afb.STAR.v1.bam"
+        ]
+    }
+}

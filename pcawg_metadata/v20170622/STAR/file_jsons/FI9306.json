@@ -1,0 +1,128 @@
+{
+    "donors": [
+        {
+            "otherIdentifiers": {
+                "tcgaAliquotBarcode": [
+                    null
+                ], 
+                "tcgaSampleBarcode": [
+                    null
+                ]
+            }, 
+            "specimenId": [
+                "SP103623"
+            ], 
+            "study": "PCAWG", 
+            "sampleId": [
+                "SA507388"
+            ], 
+            "submittedSampleId": [
+                "C0070RT"
+            ], 
+            "submittedSpecimenId": [
+                "C0070RT"
+            ], 
+            "primarySite": "Kidney", 
+            "projectCode": "RECA-EU", 
+            "donorId": "DO47132", 
+            "submittedDonorId": "C0070", 
+            "specimenType": [
+                "Primary tumour - solid tissue"
+            ]
+        }
+    ], 
+    "fileCopies": [
+        {
+            "repoOrg": "PCAWG", 
+            "fileSize": 5435089468, 
+            "repoDataBundleId": "20c82f13-a27c-45a1-b6fe-806b19cb1940", 
+            "repoCountry": "UK", 
+            "lastModified": 1473459054, 
+            "repoDataSetIds": [], 
+            "repoDataPath": "/cghub/data/analysis/download/", 
+            "fileName": "PCAWG.b9bf94f6-dd37-11e4-971f-fdaac254ba06.STAR.v1.bam", 
+            "fileMd5sum": "f6a11b8af1fba710d7312a5e2a635686", 
+            "repoType": "GNOS", 
+            "repoName": "PCAWG - London", 
+            "repoMetadataPath": "/cghub/metadata/analysisFull/", 
+            "indexFile": {
+                "objectId": "4e7fb905-36ad-541f-bd30-0bac0d62643b", 
+                "id": "FI659545", 
+                "fileMd5sum": "f55a18b499eeadb300a4f3d87f8b57a7", 
+                "fileSize": 5587312, 
+                "fileName": "PCAWG.b9bf94f6-dd37-11e4-971f-fdaac254ba06.STAR.v1.bam.bai", 
+                "fileFormat": "BAI"
+            }, 
+            "repoCode": "pcawg-london", 
+            "fileFormat": "BAM", 
+            "repoBaseUrl": "https://gtrepo-ebi.annailabs.com/"
+        }, 
+        {
+            "repoOrg": "AWS", 
+            "fileSize": 5435089468, 
+            "repoDataBundleId": "20c82f13-a27c-45a1-b6fe-806b19cb1940", 
+            "repoCountry": "US", 
+            "repoFileId": "94b666af-bbe8-5781-abfc-1710196839cf", 
+            "lastModified": 1473620391, 
+            "repoDataSetIds": [], 
+            "repoDataPath": "/oicr.icgc/data/94b666af-bbe8-5781-abfc-1710196839cf", 
+            "fileName": "PCAWG.b9bf94f6-dd37-11e4-971f-fdaac254ba06.STAR.v1.bam", 
+            "fileMd5sum": "f6a11b8af1fba710d7312a5e2a635686", 
+            "repoType": "S3", 
+            "repoName": "AWS - Virginia", 
+            "repoMetadataPath": "/oicr.icgc.meta/metadata/8bb53340-6744-5017-9072-f84cbb297161", 
+            "indexFile": {
+                "objectId": "4e7fb905-36ad-541f-bd30-0bac0d62643b", 
+                "id": "FI659545", 
+                "fileMd5sum": "f55a18b499eeadb300a4f3d87f8b57a7", 
+                "fileSize": 5587312, 
+                "fileName": "PCAWG.b9bf94f6-dd37-11e4-971f-fdaac254ba06.STAR.v1.bam.bai", 
+                "fileFormat": "BAI"
+            }, 
+            "repoCode": "aws-virginia", 
+            "fileFormat": "BAM", 
+            "repoBaseUrl": "https://s3-external-1.amazonaws.com/"
+        }, 
+        {
+            "repoOrg": "Collaboratory", 
+            "fileSize": 5435089468, 
+            "repoDataBundleId": "20c82f13-a27c-45a1-b6fe-806b19cb1940", 
+            "repoCountry": "CA", 
+            "repoFileId": "94b666af-bbe8-5781-abfc-1710196839cf", 
+            "lastModified": 1473441908, 
+            "repoDataSetIds": [], 
+            "repoDataPath": "/oicr.icgc/data/94b666af-bbe8-5781-abfc-1710196839cf", 
+            "fileName": "PCAWG.b9bf94f6-dd37-11e4-971f-fdaac254ba06.STAR.v1.bam", 
+            "fileMd5sum": "f6a11b8af1fba710d7312a5e2a635686", 
+            "repoType": "S3", 
+            "repoName": "Collaboratory - Toronto", 
+            "repoMetadataPath": "/oicr.icgc.meta/metadata/8bb53340-6744-5017-9072-f84cbb297161", 
+            "indexFile": {}, 
+            "repoCode": "collaboratory", 
+            "fileFormat": "BAM", 
+            "repoBaseUrl": "https://www.cancercollaboratory.org:9080/"
+        }
+    ], 
+    "objectId": "94b666af-bbe8-5781-abfc-1710196839cf", 
+    "analysisMethod": {
+        "analysisType": "Reference alignment", 
+        "software": "STAR"
+    }, 
+    "study": [
+        "PCAWG"
+    ], 
+    "id": "FI9306", 
+    "access": "controlled", 
+    "dataCategorization": {
+        "dataType": "Aligned Reads", 
+        "experimentalStrategy": "RNA-Seq"
+    }, 
+    "referenceGenome": {
+        "downloadUrl": "ftp://ftp.sanger.ac.uk/pub/project/PanCancer/genome.fa.gz", 
+        "genomeBuild": "GRCh37", 
+        "referenceName": "hs37d5"
+    }, 
+    "dataBundle": {
+        "dataBundleId": "20c82f13-a27c-45a1-b6fe-806b19cb1940"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "analysis": {
+        "analysisCenter": "MSKCC", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-08-23T11:38:34"
+    }, 
+    "sample": {
+        "genderId": "female", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "C0056RT", 
+        "region": "", 
+        "subjectId": "C0056", 
+        "organismPart": "", 
+        "collab_metadata_xml": "STAR/collab_metadata_xmls/e4e65fe3-c86b-522f-ab3d-ce928fe459d8_metadata.xml", 
+        "submittedSpecimenId": "C0056RT", 
+        "caseOrControlId": 0, 
+        "donorId": "DO47108", 
+        "phenotype": "Renal Cancer", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.eb48b638-dd37-11e4-860a-a0adc254ba06.STAR.v1.bam"
+        ]
+    }
+}

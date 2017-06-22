@@ -1,0 +1,37 @@
+{
+    "analysis": {
+        "analysisCenter": "MSKCC", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-04-27T23:44:49"
+    }, 
+    "sample": {
+        "genderId": "female", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "tumor_4124542_RNA", 
+        "region": "", 
+        "subjectId": "4124542", 
+        "organismPart": "", 
+        "collab_metadata_xml": "STAR/collab_metadata_xmls/8d9a16a3-a7b3-5291-94bb-dee9099cf1ca_metadata.xml", 
+        "submittedSpecimenId": "tumor_4124542", 
+        "caseOrControlId": 0, 
+        "donorId": "DO52694", 
+        "phenotype": "Malignant Lymphoma", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.638d9fd0-d4b1-11e4-9a6c-edb477c7811c.STAR.v1.bam", 
+            "PCAWG.638d9fd0-d4b1-11e4-9a6c-edb477c7811c.STAR.v1.bam.bai"
+        ]
+    }
+}

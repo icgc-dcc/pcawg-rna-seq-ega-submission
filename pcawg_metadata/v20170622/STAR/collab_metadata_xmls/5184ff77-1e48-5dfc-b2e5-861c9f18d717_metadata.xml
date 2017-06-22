@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ResultSet>
+	<Query>analysis_id:7d87fd27-22d6-4e3b-b512-2c4d74344d81</Query>
+	<Hits>1</Hits>
+	<Result id="1">
+		<analysis_id>7d87fd27-22d6-4e3b-b512-2c4d74344d81</analysis_id>
+		<state>live</state>
+		<reason></reason>
+		<last_modified>2016-09-09T21:43:31Z</last_modified>
+		<upload_date>2015-08-23T23:57:23Z</upload_date>
+		<published_date>2015-08-25T00:21:23Z</published_date>
+		<center_name>MSKCC</center_name>
+		<study>icgc_pancancer</study>
+		<aliquot_id>4059d0d2-fec6-411f-b2e4-1baf93c29aea</aliquot_id>
+		<files>
+			<file>
+				<filename>PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam</filename>
+				<filesize>6445182274</filesize>
+				<checksum type="MD5">e0d60db1efce104952be3bea40579f98</checksum>
+			</file>
+			<file>
+				<filename>PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam.bai</filename>
+				<filesize>5526808</filesize>
+				<checksum type="MD5">72c200e0ea88595b136d0da8fb712dba</checksum>
+			</file>
+		</files>
+		<sample_accession></sample_accession>
+		<dcc_project_code>RECA-EU</dcc_project_code>
+		<dcc_specimen_type>Normal - tissue adjacent to primary</dcc_specimen_type>
+		<participant_id>C0027</participant_id>
+		<specimen_id>C0027RA</specimen_id>
+		<sample_id>C0027RA</sample_id>
+		<use_cntl>N/A</use_cntl>
+		<analyte_code></analyte_code>
+		<library_strategy>RNA-Seq</library_strategy>
+		<platform>ILLUMINA</platform>
+		<refassem_short_name>GRCh37</refassem_short_name>
+		<analysis_xml>
+<ANALYSIS_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.analysis.xsd?view=co">
+  <ANALYSIS alias="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" analysis_date="2015-08-23T19:57:16" center_name="MSKCC">
+    <TITLE>TCGA/ICGC PanCancer RNA-Seq realignment</TITLE>
+    <STUDY_REF refcenter="UCSC" refname="icgc_pancancer">
+    </STUDY_REF>
+    <DESCRIPTION>STAR realignment of TCGA RNA-Seq data from matching participants from the PanCan Analysis of Whole Genomes (PCAWG) study</DESCRIPTION>
+    <ANALYSIS_TYPE>
+      <REFERENCE_ALIGNMENT>
+        <ASSEMBLY>
+          <STANDARD short_name="GRCh37"/>
+        </ASSEMBLY>
+        <RUN_LABELS>
+            <RUN refcenter="CNG" refname="CNG:BC0GGFACXX_4[#GCCAAT]" read_group_label="BC0GGFACXX" data_block_name="RNA-Seq:CNG:Illumina TruSeq:4059d0d2-fec6-411f-b2e4-1baf93c29aea"/>
+        </RUN_LABELS>
+        <SEQ_LABELS>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000001.10" seq_label="1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000002.11" seq_label="2"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000003.11" seq_label="3"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000004.11" seq_label="4"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000005.9" seq_label="5"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000006.11" seq_label="6"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000007.13" seq_label="7"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000008.10" seq_label="8"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000009.11" seq_label="9"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000010.10" seq_label="10"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000011.9" seq_label="11"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000012.11" seq_label="12"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000013.10" seq_label="13"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000014.8" seq_label="14"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000015.9" seq_label="15"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000016.9" seq_label="16"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000017.10" seq_label="17"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000018.9" seq_label="18"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000019.9" seq_label="19"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000020.10" seq_label="20"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000021.8" seq_label="21"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000022.10" seq_label="22"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000023.10" seq_label="X"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_000024.9" seq_label="Y"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_012920" seq_label="MT"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000207.1" seq_label="GL000207.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000226.1" seq_label="GL000226.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000229.1" seq_label="GL000229.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000231.1" seq_label="GL000231.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000210.1" seq_label="GL000210.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000239.1" seq_label="GL000239.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000235.1" seq_label="GL000235.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000201.1" seq_label="GL000201.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000247.1" seq_label="GL000247.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000245.1" seq_label="GL000245.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000197.1" seq_label="GL000197.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000203.1" seq_label="GL000203.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000246.1" seq_label="GL000246.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000249.1" seq_label="GL000249.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000196.1" seq_label="GL000196.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000248.1" seq_label="GL000248.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000244.1" seq_label="GL000244.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000238.1" seq_label="GL000238.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000202.1" seq_label="GL000202.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000234.1" seq_label="GL000234.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000232.1" seq_label="GL000232.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000206.1" seq_label="GL000206.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000240.1" seq_label="GL000240.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000236.1" seq_label="GL000236.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000241.1" seq_label="GL000241.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000243.1" seq_label="GL000243.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000242.1" seq_label="GL000242.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000230.1" seq_label="GL000230.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000237.1" seq_label="GL000237.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000233.1" seq_label="GL000233.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000204.1" seq_label="GL000204.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000198.1" seq_label="GL000198.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000208.1" seq_label="GL000208.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000191.1" seq_label="GL000191.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000227.1" seq_label="GL000227.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000228.1" seq_label="GL000228.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000214.1" seq_label="GL000214.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000221.1" seq_label="GL000221.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000209.1" seq_label="GL000209.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000218.1" seq_label="GL000218.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000220.1" seq_label="GL000220.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000213.1" seq_label="GL000213.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000211.1" seq_label="GL000211.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000199.1" seq_label="GL000199.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000217.1" seq_label="GL000217.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000216.1" seq_label="GL000216.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000215.1" seq_label="GL000215.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000205.1" seq_label="GL000205.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000219.1" seq_label="GL000219.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000224.1" seq_label="GL000224.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000223.1" seq_label="GL000223.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000195.1" seq_label="GL000195.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000212.1" seq_label="GL000212.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000222.1" seq_label="GL000222.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000200.1" seq_label="GL000200.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000193.1" seq_label="GL000193.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000194.1" seq_label="GL000194.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000225.1" seq_label="GL000225.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="GL000192.1" seq_label="GL000192.1"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="NC_007605" seq_label="NC_007605"/>
+          <SEQUENCE data_block_name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" accession="hs37d5" seq_label="hs37d5"/>
+        </SEQ_LABELS>
+        <PROCESSING>
+          <PIPELINE>
+            <PIPE_SECTION section_name="mapping">
+              <STEP_INDEX>mapping</STEP_INDEX>
+              <PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+              <PROGRAM>STAR</PROGRAM>
+              <VERSION>2.4.0i</VERSION>
+              <NOTES>STAR --genomeDir /scratch/4132178.mskcc-fe1.local/star_genomedir_1st_1et612 --readFilesIn /scratch/4132178.mskcc-fe1.local/star_inputdir_i2x2eq/B00E4IW_BC0GGFACXX/B00E4IW_BC0GGFACXX.fastq1 /scratch/4132178.mskcc-fe1.local/star_inputdir_i2x2eq/B00E4IW_BC0GGFACXX/B00E4IW_BC0GGFACXX.fastq2 --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand cat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:CNG:cd9a3f72-dd36-11e4-b689-a79dc254ba06:B00E4IW_BC0GGFACXX1 "LB:RNA-Seq:CNG:CNG:BC0GGFACXX_4[#GCCAAT]:RNA-Seq:CNG:Illumina TruSeq:4059d0d2-fec6-411f-b2e4-1baf93c29aea" CN:CNG SM:C0027RA PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:CNG:B00E4IW_BC0GGFACXX1 --outSAMheaderCommentFile /scratch/4132178.mskcc-fe1.local/star_comments_oSNHck
+STAR --genomeDir /scratch/4132178.mskcc-fe1.local/star_genomedir_1st_1et612 --readFilesIn /scratch/4132178.mskcc-fe1.local/star_inputdir_i2x2eq/B00E4IW_BC0GGFACXX/B00E4IW_BC0GGFACXX.fastq1 /scratch/4132178.mskcc-fe1.local/star_inputdir_i2x2eq/B00E4IW_BC0GGFACXX/B00E4IW_BC0GGFACXX.fastq2 --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand cat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:CNG:cd9a3f72-dd36-11e4-b689-a79dc254ba06:B00E4IW_BC0GGFACXX1 "LB:RNA-Seq:CNG:CNG:BC0GGFACXX_4[#GCCAAT]:RNA-Seq:CNG:Illumina TruSeq:4059d0d2-fec6-411f-b2e4-1baf93c29aea" CN:CNG SM:C0027RA PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:CNG:B00E4IW_BC0GGFACXX1 --outSAMheaderCommentFile /scratch/4132178.mskcc-fe1.local/star_comments_oSNHck</NOTES>
+            </PIPE_SECTION>
+          </PIPELINE>
+          <DIRECTIVES>
+            <alignment_includes_unaligned_reads>true</alignment_includes_unaligned_reads>
+            <alignment_marks_duplicate_reads>false</alignment_marks_duplicate_reads>
+            <alignment_includes_failed_reads>false</alignment_includes_failed_reads>
+          </DIRECTIVES>
+        </PROCESSING>
+      </REFERENCE_ALIGNMENT>
+    </ANALYSIS_TYPE>
+    <TARGETS>
+      <TARGET refcenter="OICR" refname="4059d0d2-fec6-411f-b2e4-1baf93c29aea" sra_object_type="SAMPLE"/>
+    </TARGETS>
+    <DATA_BLOCK name="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam">
+      <FILES>
+        <FILE checksum="e0d60db1efce104952be3bea40579f98" checksum_method="MD5" filename="PCAWG.cd9a3f72-dd36-11e4-b689-a79dc254ba06.STAR.v1.bam" filetype="bam"/>
+      </FILES>
+    </DATA_BLOCK>
+    <ANALYSIS_ATTRIBUTES>
+      <ANALYSIS_ATTRIBUTE>
+        <TAG>STUDY</TAG>
+        <VALUE>icgc_pancancer</VALUE>
+      </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+        <TAG>workflow_name</TAG>
+        <VALUE>RNA-Seq_Alignment_SOP_STAR</VALUE>
+      </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+        <TAG>workflow_version</TAG>
+        <VALUE>v1</VALUE>
+      </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+        <TAG>workflow_source_url</TAG>
+        <VALUE>https://github.com/ucscCancer/icgc_rnaseq_align</VALUE>
+      </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+        <TAG>workflow_bundle_url</TAG>
+        <VALUE>NA</VALUE>
+      </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+        <TAG>STAR_version</TAG>
+        <VALUE>2.4.0i</VALUE>
+      </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+          <TAG>dcc_project_code</TAG>
+          <VALUE>RECA-EU</VALUE>
+        </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+          <TAG>submitter_donor_id</TAG>
+          <VALUE>C0027</VALUE>
+        </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+          <TAG>submitter_sample_id</TAG>
+          <VALUE>C0027RA</VALUE>
+        </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+          <TAG>submitter_specimen_id</TAG>
+          <VALUE>C0027RA</VALUE>
+        </ANALYSIS_ATTRIBUTE>
+      <ANALYSIS_ATTRIBUTE>
+          <TAG>dcc_specimen_type</TAG>
+          <VALUE>Normal - tissue adjacent to primary</VALUE>
+        </ANALYSIS_ATTRIBUTE>    </ANALYSIS_ATTRIBUTES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+</analysis_xml>
+		<experiment_xml>
+<EXPERIMENT_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.experiment.xsd?view=co">
+<EXPERIMENT center_name="CNG" alias="CNG:BC0GGFACXX_4[#GCCAAT]:RNA-Seq:CNG:Illumina TruSeq:4059d0d2-fec6-411f-b2e4-1baf93c29aea">
+  <STUDY_REF accession="EGAN00001179268" refcenter="OICR" refname="icgc_pancancer"/>
+    <DESIGN>
+      <DESIGN_DESCRIPTION>ICGC RNA-Seq Paired-End Experiment</DESIGN_DESCRIPTION>
+      <SAMPLE_DESCRIPTOR refcenter="OICR" refname="4059d0d2-fec6-411f-b2e4-1baf93c29aea"/>
+      <LIBRARY_DESCRIPTOR>
+        <LIBRARY_NAME>"RNA-Seq:CNG:Illumina TruSeq:4059d0d2-fec6-411f-b2e4-1baf93c29aea"</LIBRARY_NAME>
+        <LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+        <LIBRARY_SOURCE>TRANSCRIPTOMIC</LIBRARY_SOURCE>
+        <LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION>
+        <LIBRARY_LAYOUT>
+          <PAIRED/>
+        </LIBRARY_LAYOUT>
+      </LIBRARY_DESCRIPTOR>
+      <SPOT_DESCRIPTOR>
+        <SPOT_DECODE_SPEC>
+          <READ_SPEC>
+            <READ_INDEX>0</READ_INDEX>
+            <READ_CLASS>Application Read</READ_CLASS>
+            <READ_TYPE>Forward</READ_TYPE>
+            <BASE_COORD>1</BASE_COORD>
+          </READ_SPEC>
+          <READ_SPEC>
+            <READ_INDEX>1</READ_INDEX>
+            <READ_CLASS>Application Read</READ_CLASS>
+            <READ_TYPE>Reverse</READ_TYPE>
+            <BASE_COORD>47</BASE_COORD>
+          </READ_SPEC>
+        </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+    </DESIGN>
+    <PLATFORM>
+      <ILLUMINA>
+        <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+      </ILLUMINA>
+    </PLATFORM>
+    <PROCESSING>
+      <PIPELINE>
+        <PIPE_SECTION section_name="BASE_CALLS">
+          <STEP_INDEX>N/A</STEP_INDEX>
+          <PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+          <PROGRAM/>
+          <VERSION/>
+          <NOTES>
+            SEQUENCE_SPACE=Base Space
+          </NOTES>
+        </PIPE_SECTION>
+        <PIPE_SECTION section_name="QUALITY_SCORES">
+          <STEP_INDEX>N/A</STEP_INDEX>
+          <PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+          <PROGRAM/>
+          <VERSION/>
+          <NOTES/>
+        </PIPE_SECTION>
+      </PIPELINE>
+      <DIRECTIVES/>
+    </PROCESSING>
+  </EXPERIMENT>
+</EXPERIMENT_SET>
+</experiment_xml>
+		<run_xml>
+<RUN_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.run.xsd?view=co">
+    <RUN center_name="CNG" alias="CNG:BC0GGFACXX_4[#GCCAAT]">
+        <EXPERIMENT_REF refcenter="CNG" refname="CNG:BC0GGFACXX_4[#GCCAAT]:RNA-Seq:CNG:Illumina TruSeq:4059d0d2-fec6-411f-b2e4-1baf93c29aea"/>
+    </RUN>
+  </RUN_SET>
+</run_xml>
+		<analysis_detail_uri>https://gtrepo-ebi.annailabs.com/cghub/metadata/analysisDetail/7d87fd27-22d6-4e3b-b512-2c4d74344d81</analysis_detail_uri>
+		<analysis_submission_uri>https://gtrepo-ebi.annailabs.com/cghub/metadata/analysisSubmission/7d87fd27-22d6-4e3b-b512-2c4d74344d81</analysis_submission_uri>
+		<analysis_data_uri>https://gtrepo-ebi.annailabs.com/cghub/data/analysis/download/7d87fd27-22d6-4e3b-b512-2c4d74344d81</analysis_data_uri>
+	</Result>
+	<ResultSummary>
+		<downloadable_file_count>2</downloadable_file_count>
+		<downloadable_file_size units="GB">6.01</downloadable_file_size>
+		<state_count>
+			<live>1</live>
+		</state_count>
+	</ResultSummary>
+</ResultSet>

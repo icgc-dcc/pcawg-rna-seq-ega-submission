@@ -1,0 +1,37 @@
+{
+    "analysis": {
+        "analysisCenter": "EBI-EMBL", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-07-29T17:24:52"
+    }, 
+    "sample": {
+        "genderId": "male", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "RK014_Liver", 
+        "region": "", 
+        "subjectId": "RK014", 
+        "organismPart": "", 
+        "collab_metadata_xml": "TopHat2/collab_metadata_xmls/dff49c13-5559-5aac-9e88-fabacab7d0f4_metadata.xml", 
+        "submittedSpecimenId": "RK014_L01", 
+        "caseOrControlId": 1, 
+        "donorId": "DO45103", 
+        "phenotype": "Liver Cancer", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.849be998-e1e5-11e4-ae5e-dccda47388b2.TopHat2.v1.bam", 
+            "PCAWG.849be998-e1e5-11e4-ae5e-dccda47388b2.TopHat2.v1.bam.bai"
+        ]
+    }
+}

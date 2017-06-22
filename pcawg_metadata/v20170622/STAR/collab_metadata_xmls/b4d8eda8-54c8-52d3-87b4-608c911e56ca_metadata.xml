@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ResultSet>
+	<Query>analysis_id:3c978b66-ac63-4aa6-a6d9-82259814f997</Query>
+	<Hits>1</Hits>
+	<Result id="1">
+		<analysis_id>3c978b66-ac63-4aa6-a6d9-82259814f997</analysis_id>
+		<state>live</state>
+		<reason></reason>
+		<last_modified>2016-09-02T19:59:03Z</last_modified>
+		<upload_date>2016-09-01T18:38:03Z</upload_date>
+		<published_date>2016-09-02T19:59:03Z</published_date>
+		<center_name>MSKCC</center_name>
+		<study>icgc_pancancer</study>
+		<aliquot_id>7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d</aliquot_id>
+		<files>
+			<file>
+				<filename>PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam</filename>
+				<filesize>17750645731</filesize>
+				<checksum type="MD5">69eb2e0ce16ec03d3af74beb870d0d80</checksum>
+			</file>
+			<file>
+				<filename>PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam.bai</filename>
+				<filesize>5735688</filesize>
+				<checksum type="MD5">2c445635bf7a600f2febbcdcb03b10a0</checksum>
+			</file>
+		</files>
+		<sample_accession></sample_accession>
+		<dcc_project_code>OV-AU</dcc_project_code>
+		<dcc_specimen_type>Primary tumour - solid tissue</dcc_specimen_type>
+		<participant_id>N/A</participant_id>
+		<specimen_id>AOCS-079-2-5</specimen_id>
+		<sample_id>7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d</sample_id>
+		<use_cntl>N/A</use_cntl>
+		<analyte_code></analyte_code>
+		<library_strategy>RNA-Seq</library_strategy>
+		<platform>ILLUMINA</platform>
+		<refassem_short_name>GRCh37</refassem_short_name>
+		<analysis_xml>
+<ANALYSIS_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.analysis.xsd?view=co">
+	<ANALYSIS alias="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" analysis_date="2015-08-23T08:02:05" center_name="MSKCC">
+		<TITLE>TCGA/ICGC PanCancer RNA-Seq realignment</TITLE>
+		<STUDY_REF refcenter="UCSC" refname="icgc_pancancer"></STUDY_REF>
+		<DESCRIPTION>STAR realignment of TCGA RNA-Seq data from matching participants from the PanCan Analysis of Whole Genomes (PCAWG) study</DESCRIPTION>
+		<ANALYSIS_TYPE>
+			<REFERENCE_ALIGNMENT>
+				<ASSEMBLY>
+					<STANDARD short_name="GRCh37"></STANDARD>
+				</ASSEMBLY>
+				<RUN_LABELS>
+					<RUN data_block_name="RNA:QCMG:Library_NEW5709A2312AR2" read_group_label="QCMG:8cd42f6e-cbb8-4b2e-8778-00e87399a468" refcenter="QCMG" refname="QCMG:C270DACXX"></RUN>
+					<RUN data_block_name="RNA:QCMG:Library_NEW5709A2312AR2" read_group_label="QCMG:c7e7f59d-2121-4edb-9b1e-c234cee65290" refcenter="QCMG" refname="QCMG:C270DACXX"></RUN>
+					<RUN data_block_name="RNA:QCMG:Library_NEW5709A2312AR2" read_group_label="QCMG:92672c30-929b-489b-9a26-dd2e8878790a" refcenter="QCMG" refname="QCMG:C270DACXX"></RUN>
+					<RUN data_block_name="RNA:QCMG:Library_NEW5709A2312AR2" read_group_label="QCMG:9ffa2c39-6fbf-42dd-980a-22fe9492552c" refcenter="QCMG" refname="QCMG:C270DACXX"></RUN>
+				</RUN_LABELS>
+				<SEQ_LABELS>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000001.10" seq_label="1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000002.11" seq_label="2"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000003.11" seq_label="3"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000004.11" seq_label="4"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000005.9" seq_label="5"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000006.11" seq_label="6"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000007.13" seq_label="7"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000008.10" seq_label="8"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000009.11" seq_label="9"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000010.10" seq_label="10"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000011.9" seq_label="11"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000012.11" seq_label="12"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000013.10" seq_label="13"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000014.8" seq_label="14"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000015.9" seq_label="15"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000016.9" seq_label="16"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000017.10" seq_label="17"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000018.9" seq_label="18"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000019.9" seq_label="19"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000020.10" seq_label="20"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000021.8" seq_label="21"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000022.10" seq_label="22"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000023.10" seq_label="X"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_000024.9" seq_label="Y"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_012920" seq_label="MT"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000207.1" seq_label="GL000207.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000226.1" seq_label="GL000226.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000229.1" seq_label="GL000229.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000231.1" seq_label="GL000231.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000210.1" seq_label="GL000210.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000239.1" seq_label="GL000239.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000235.1" seq_label="GL000235.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000201.1" seq_label="GL000201.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000247.1" seq_label="GL000247.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000245.1" seq_label="GL000245.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000197.1" seq_label="GL000197.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000203.1" seq_label="GL000203.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000246.1" seq_label="GL000246.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000249.1" seq_label="GL000249.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000196.1" seq_label="GL000196.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000248.1" seq_label="GL000248.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000244.1" seq_label="GL000244.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000238.1" seq_label="GL000238.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000202.1" seq_label="GL000202.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000234.1" seq_label="GL000234.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000232.1" seq_label="GL000232.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000206.1" seq_label="GL000206.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000240.1" seq_label="GL000240.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000236.1" seq_label="GL000236.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000241.1" seq_label="GL000241.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000243.1" seq_label="GL000243.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000242.1" seq_label="GL000242.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000230.1" seq_label="GL000230.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000237.1" seq_label="GL000237.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000233.1" seq_label="GL000233.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000204.1" seq_label="GL000204.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000198.1" seq_label="GL000198.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000208.1" seq_label="GL000208.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000191.1" seq_label="GL000191.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000227.1" seq_label="GL000227.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000228.1" seq_label="GL000228.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000214.1" seq_label="GL000214.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000221.1" seq_label="GL000221.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000209.1" seq_label="GL000209.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000218.1" seq_label="GL000218.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000220.1" seq_label="GL000220.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000213.1" seq_label="GL000213.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000211.1" seq_label="GL000211.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000199.1" seq_label="GL000199.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000217.1" seq_label="GL000217.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000216.1" seq_label="GL000216.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000215.1" seq_label="GL000215.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000205.1" seq_label="GL000205.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000219.1" seq_label="GL000219.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000224.1" seq_label="GL000224.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000223.1" seq_label="GL000223.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000195.1" seq_label="GL000195.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000212.1" seq_label="GL000212.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000222.1" seq_label="GL000222.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000200.1" seq_label="GL000200.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000193.1" seq_label="GL000193.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000194.1" seq_label="GL000194.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000225.1" seq_label="GL000225.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="GL000192.1" seq_label="GL000192.1"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="NC_007605" seq_label="NC_007605"></SEQUENCE>
+					<SEQUENCE data_block_name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" accession="hs37d5" seq_label="hs37d5"></SEQUENCE>
+				</SEQ_LABELS>
+				<PROCESSING>
+					<PIPELINE>
+						<PIPE_SECTION section_name="mapping">
+							<STEP_INDEX>mapping</STEP_INDEX>
+							<PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+							<PROGRAM>STAR</PROGRAM>
+							<VERSION>2.4.0i</VERSION>
+							<NOTES>STAR --genomeDir /scratch/4136600.mskcc-fe1.local/star_genomedir_1st_d5YSWe --readFilesIn /scratch/4136600.mskcc-fe1.local/star_inputdir_G0UrO2/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8942f1d2-fb5b-11e4-9a8c-8b92431d0c96/8cd42f6e-cbb8-4b2e-8778-00e87399a468_1.fastq.gz /scratch/4136600.mskcc-fe1.local/star_inputdir_G0UrO2/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8942f1d2-fb5b-11e4-9a8c-8b92431d0c96/8cd42f6e-cbb8-4b2e-8778-00e87399a468_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:8942f1d2-fb5b-11e4-9a8c-8b92431d0c96:8cd42f6e-cbb8-4b2e-8778-00e87399a468 LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:8cd42f6e-cbb8-4b2e-8778-00e87399a468 --outSAMheaderCommentFile /scratch/4136600.mskcc-fe1.local/star_comments_Ds9tXD
+STAR --genomeDir /scratch/4136600.mskcc-fe1.local/star_genomedir_1st_d5YSWe --readFilesIn /scratch/4136600.mskcc-fe1.local/star_inputdir_G0UrO2/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8942f1d2-fb5b-11e4-9a8c-8b92431d0c96/8cd42f6e-cbb8-4b2e-8778-00e87399a468_1.fastq.gz /scratch/4136600.mskcc-fe1.local/star_inputdir_G0UrO2/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8942f1d2-fb5b-11e4-9a8c-8b92431d0c96/8cd42f6e-cbb8-4b2e-8778-00e87399a468_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:8942f1d2-fb5b-11e4-9a8c-8b92431d0c96:8cd42f6e-cbb8-4b2e-8778-00e87399a468 LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:8cd42f6e-cbb8-4b2e-8778-00e87399a468 --outSAMheaderCommentFile /scratch/4136600.mskcc-fe1.local/star_comments_Ds9tXD</NOTES>
+						</PIPE_SECTION>
+						<PIPE_SECTION section_name="mapping">
+							<STEP_INDEX>mapping</STEP_INDEX>
+							<PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+							<PROGRAM>STAR</PROGRAM>
+							<VERSION>2.4.0i</VERSION>
+							<NOTES>STAR --genomeDir /scratch/4136599.mskcc-fe1.local/star_genomedir_1st_qgEEz4 --readFilesIn /scratch/4136599.mskcc-fe1.local/star_inputdir_oNq_zP/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8946ccf8-fb5b-11e4-b4b8-ed0bb6ea79d1/c7e7f59d-2121-4edb-9b1e-c234cee65290_1.fastq.gz /scratch/4136599.mskcc-fe1.local/star_inputdir_oNq_zP/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8946ccf8-fb5b-11e4-b4b8-ed0bb6ea79d1/c7e7f59d-2121-4edb-9b1e-c234cee65290_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:8946ccf8-fb5b-11e4-b4b8-ed0bb6ea79d1:c7e7f59d-2121-4edb-9b1e-c234cee65290 LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:c7e7f59d-2121-4edb-9b1e-c234cee65290 --outSAMheaderCommentFile /scratch/4136599.mskcc-fe1.local/star_comments_yHfO7d
+STAR --genomeDir /scratch/4136599.mskcc-fe1.local/star_genomedir_1st_qgEEz4 --readFilesIn /scratch/4136599.mskcc-fe1.local/star_inputdir_oNq_zP/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8946ccf8-fb5b-11e4-b4b8-ed0bb6ea79d1/c7e7f59d-2121-4edb-9b1e-c234cee65290_1.fastq.gz /scratch/4136599.mskcc-fe1.local/star_inputdir_oNq_zP/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/8946ccf8-fb5b-11e4-b4b8-ed0bb6ea79d1/c7e7f59d-2121-4edb-9b1e-c234cee65290_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:8946ccf8-fb5b-11e4-b4b8-ed0bb6ea79d1:c7e7f59d-2121-4edb-9b1e-c234cee65290 LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:c7e7f59d-2121-4edb-9b1e-c234cee65290 --outSAMheaderCommentFile /scratch/4136599.mskcc-fe1.local/star_comments_yHfO7d</NOTES>
+						</PIPE_SECTION>
+						<PIPE_SECTION section_name="mapping">
+							<STEP_INDEX>mapping</STEP_INDEX>
+							<PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+							<PROGRAM>STAR</PROGRAM>
+							<VERSION>2.4.0i</VERSION>
+							<NOTES>STAR --genomeDir /scratch/4136601.mskcc-fe1.local/star_genomedir_1st_yIKaY4 --readFilesIn /scratch/4136601.mskcc-fe1.local/star_inputdir_kPXAbX/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/894353a2-fb5b-11e4-86af-a9a1c3943636/92672c30-929b-489b-9a26-dd2e8878790a_1.fastq.gz /scratch/4136601.mskcc-fe1.local/star_inputdir_kPXAbX/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/894353a2-fb5b-11e4-86af-a9a1c3943636/92672c30-929b-489b-9a26-dd2e8878790a_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:894353a2-fb5b-11e4-86af-a9a1c3943636:92672c30-929b-489b-9a26-dd2e8878790a LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:92672c30-929b-489b-9a26-dd2e8878790a --outSAMheaderCommentFile /scratch/4136601.mskcc-fe1.local/star_comments_NaN3H_
+STAR --genomeDir /scratch/4136601.mskcc-fe1.local/star_genomedir_1st_yIKaY4 --readFilesIn /scratch/4136601.mskcc-fe1.local/star_inputdir_kPXAbX/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/894353a2-fb5b-11e4-86af-a9a1c3943636/92672c30-929b-489b-9a26-dd2e8878790a_1.fastq.gz /scratch/4136601.mskcc-fe1.local/star_inputdir_kPXAbX/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/894353a2-fb5b-11e4-86af-a9a1c3943636/92672c30-929b-489b-9a26-dd2e8878790a_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:894353a2-fb5b-11e4-86af-a9a1c3943636:92672c30-929b-489b-9a26-dd2e8878790a LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:92672c30-929b-489b-9a26-dd2e8878790a --outSAMheaderCommentFile /scratch/4136601.mskcc-fe1.local/star_comments_NaN3H_</NOTES>
+						</PIPE_SECTION>
+						<PIPE_SECTION section_name="mapping">
+							<STEP_INDEX>mapping</STEP_INDEX>
+							<PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+							<PROGRAM>STAR</PROGRAM>
+							<VERSION>2.4.0i</VERSION>
+							<NOTES>STAR --genomeDir /scratch/4136598.mskcc-fe1.local/star_genomedir_1st_hFjtf8 --readFilesIn /scratch/4136598.mskcc-fe1.local/star_inputdir_dhUgYl/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/89469602-fb5b-11e4-b994-b334811fe7f6/9ffa2c39-6fbf-42dd-980a-22fe9492552c_1.fastq.gz /scratch/4136598.mskcc-fe1.local/star_inputdir_dhUgYl/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/89469602-fb5b-11e4-b994-b334811fe7f6/9ffa2c39-6fbf-42dd-980a-22fe9492552c_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:89469602-fb5b-11e4-b994-b334811fe7f6:9ffa2c39-6fbf-42dd-980a-22fe9492552c LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:9ffa2c39-6fbf-42dd-980a-22fe9492552c --outSAMheaderCommentFile /scratch/4136598.mskcc-fe1.local/star_comments_bVqeMl
+STAR --genomeDir /scratch/4136598.mskcc-fe1.local/star_genomedir_1st_hFjtf8 --readFilesIn /scratch/4136598.mskcc-fe1.local/star_inputdir_dhUgYl/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/89469602-fb5b-11e4-b994-b334811fe7f6/9ffa2c39-6fbf-42dd-980a-22fe9492552c_1.fastq.gz /scratch/4136598.mskcc-fe1.local/star_inputdir_dhUgYl/cbio/grlab/projects/ICGC/orig_data/ICGC/samples/89469602-fb5b-11e4-b994-b334811fe7f6/9ffa2c39-6fbf-42dd-980a-22fe9492552c_2.fastq.gz --runThreadN 4 --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNmax 10 --alignIntronMax 500000 --alignMatesGapMax 1000000 --sjdbScore 2 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --limitBAMsortRAM 70000000000 --readFilesCommand zcat --outFilterMatchNminOverLread 0.33 --outFilterScoreMinOverLread 0.33 --sjdbOverhang 100 --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped Within --outSAMtype BAM SortedByCoordinate --outSAMheaderHD @HD VN:1.4 --outSAMattrRGline ID:QCMG:89469602-fb5b-11e4-b994-b334811fe7f6:9ffa2c39-6fbf-42dd-980a-22fe9492552c LB:RNA-Seq:QCMG:QCMG:C270DACXX:Library_NEW5709A2312AR2 CN:QCMG SM:AOCS-079-2-5 PL:ILLUMINA "PM:Illumina HiSeq 2000" PU:QCMG:9ffa2c39-6fbf-42dd-980a-22fe9492552c --outSAMheaderCommentFile /scratch/4136598.mskcc-fe1.local/star_comments_bVqeMl</NOTES>
+						</PIPE_SECTION>
+					</PIPELINE>
+					<DIRECTIVES>
+						<alignment_includes_unaligned_reads>true</alignment_includes_unaligned_reads>
+						<alignment_marks_duplicate_reads>false</alignment_marks_duplicate_reads>
+						<alignment_includes_failed_reads>false</alignment_includes_failed_reads>
+					</DIRECTIVES>
+				</PROCESSING>
+			</REFERENCE_ALIGNMENT>
+		</ANALYSIS_TYPE>
+		<TARGETS>
+			<TARGET refcenter="OICR" refname="7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d" sra_object_type="SAMPLE"></TARGET>
+		</TARGETS>
+		<DATA_BLOCK name="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam">
+			<FILES>
+				<FILE filename="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam" filetype="bam" checksum_method="MD5" checksum="69eb2e0ce16ec03d3af74beb870d0d80"></FILE>
+				<FILE filename="PCAWG.0413de9e-b480-4bda-afd0-e0ba293012c3.STAR.v1.bam.bai" filetype="bai" checksum_method="MD5" checksum="2c445635bf7a600f2febbcdcb03b10a0"></FILE>
+			</FILES>
+		</DATA_BLOCK>
+		<ANALYSIS_ATTRIBUTES>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>STUDY</TAG>
+				<VALUE>icgc_pancancer</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_name</TAG>
+				<VALUE>RNA-Seq_Alignment_SOP_STAR</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_version</TAG>
+				<VALUE>v1</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_source_url</TAG>
+				<VALUE>https://github.com/ucscCancer/icgc_rnaseq_align</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_bundle_url</TAG>
+				<VALUE>NA</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>STAR_version</TAG>
+				<VALUE>2.4.0i</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>dcc_project_code</TAG>
+				<VALUE>OV-AU</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_donor_id</TAG>
+				<VALUE>AOCS-079</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_sample_id</TAG>
+				<VALUE>AOCS-079-2-5</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_specimen_id</TAG>
+				<VALUE>AOCS-079-1</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>dcc_specimen_type</TAG>
+				<VALUE>Primary tumour - solid tissue</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>Note</TAG>
+				<VALUE>This BAM file is merged from 4 individually aligned lane-level BAM files</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+		</ANALYSIS_ATTRIBUTES>
+	</ANALYSIS>
+</ANALYSIS_SET></analysis_xml>
+		<experiment_xml>
+<EXPERIMENT_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.experiment.xsd?view=co">
+	<EXPERIMENT center_name="QCMG" alias="QCMG:C270DACXX:Library_NEW5709A2312AR2">
+		<STUDY_REF refcenter="OICR" refname="icgc_pancancer"></STUDY_REF>
+		<DESIGN>
+			<DESIGN_DESCRIPTION>NA</DESIGN_DESCRIPTION>
+			<SAMPLE_DESCRIPTOR refcenter="OICR" refname="7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d">
+				<IDENTIFIERS>
+					<SUBMITTER_ID namespace="QCMG">ICGC-DBDE-20130916-014</SUBMITTER_ID>
+					<UUID>7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d</UUID>
+				</IDENTIFIERS>
+			</SAMPLE_DESCRIPTOR>
+			<LIBRARY_DESCRIPTOR>
+				<LIBRARY_NAME>RNA:QCMG:Library_NEW5709A2312AR2</LIBRARY_NAME>
+				<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+				<LIBRARY_SOURCE>RNA</LIBRARY_SOURCE>
+				<LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+				<LIBRARY_LAYOUT>
+					<PAIRED NOMINAL_LENGTH="153"></PAIRED>
+				</LIBRARY_LAYOUT>
+			</LIBRARY_DESCRIPTOR>
+		</DESIGN>
+		<PLATFORM>
+			<ILLUMINA>
+				<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+			</ILLUMINA>
+		</PLATFORM>
+	</EXPERIMENT>
+	<EXPERIMENT center_name="QCMG" alias="QCMG:C270DACXX:Library_NEW5709A2312AR2">
+		<STUDY_REF refcenter="OICR" refname="icgc_pancancer"></STUDY_REF>
+		<DESIGN>
+			<DESIGN_DESCRIPTION>NA</DESIGN_DESCRIPTION>
+			<SAMPLE_DESCRIPTOR refcenter="OICR" refname="7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d">
+				<IDENTIFIERS>
+					<SUBMITTER_ID namespace="QCMG">ICGC-DBDE-20130916-014</SUBMITTER_ID>
+					<UUID>7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d</UUID>
+				</IDENTIFIERS>
+			</SAMPLE_DESCRIPTOR>
+			<LIBRARY_DESCRIPTOR>
+				<LIBRARY_NAME>RNA:QCMG:Library_NEW5709A2312AR2</LIBRARY_NAME>
+				<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+				<LIBRARY_SOURCE>RNA</LIBRARY_SOURCE>
+				<LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+				<LIBRARY_LAYOUT>
+					<PAIRED NOMINAL_LENGTH="152"></PAIRED>
+				</LIBRARY_LAYOUT>
+			</LIBRARY_DESCRIPTOR>
+		</DESIGN>
+		<PLATFORM>
+			<ILLUMINA>
+				<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+			</ILLUMINA>
+		</PLATFORM>
+	</EXPERIMENT>
+	<EXPERIMENT center_name="QCMG" alias="QCMG:C270DACXX:Library_NEW5709A2312AR2">
+		<STUDY_REF refcenter="OICR" refname="icgc_pancancer"></STUDY_REF>
+		<DESIGN>
+			<DESIGN_DESCRIPTION>NA</DESIGN_DESCRIPTION>
+			<SAMPLE_DESCRIPTOR refcenter="OICR" refname="7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d">
+				<IDENTIFIERS>
+					<SUBMITTER_ID namespace="QCMG">ICGC-DBDE-20130916-014</SUBMITTER_ID>
+					<UUID>7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d</UUID>
+				</IDENTIFIERS>
+			</SAMPLE_DESCRIPTOR>
+			<LIBRARY_DESCRIPTOR>
+				<LIBRARY_NAME>RNA:QCMG:Library_NEW5709A2312AR2</LIBRARY_NAME>
+				<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+				<LIBRARY_SOURCE>RNA</LIBRARY_SOURCE>
+				<LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+				<LIBRARY_LAYOUT>
+					<PAIRED NOMINAL_LENGTH="153"></PAIRED>
+				</LIBRARY_LAYOUT>
+			</LIBRARY_DESCRIPTOR>
+		</DESIGN>
+		<PLATFORM>
+			<ILLUMINA>
+				<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+			</ILLUMINA>
+		</PLATFORM>
+	</EXPERIMENT>
+	<EXPERIMENT center_name="QCMG" alias="QCMG:C270DACXX:Library_NEW5709A2312AR2">
+		<STUDY_REF refcenter="OICR" refname="icgc_pancancer"></STUDY_REF>
+		<DESIGN>
+			<DESIGN_DESCRIPTION>NA</DESIGN_DESCRIPTION>
+			<SAMPLE_DESCRIPTOR refcenter="OICR" refname="7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d">
+				<IDENTIFIERS>
+					<SUBMITTER_ID namespace="QCMG">AOCS-079-2-5</SUBMITTER_ID>
+					<UUID>7617b0fc-5d98-46f1-af3c-28a8ab6f8c9d</UUID>
+				</IDENTIFIERS>
+			</SAMPLE_DESCRIPTOR>
+			<LIBRARY_DESCRIPTOR>
+				<LIBRARY_NAME>RNA:QCMG:Library_NEW5709A2312AR2</LIBRARY_NAME>
+				<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+				<LIBRARY_SOURCE>RNA</LIBRARY_SOURCE>
+				<LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+				<LIBRARY_LAYOUT>
+					<PAIRED NOMINAL_LENGTH="152"></PAIRED>
+				</LIBRARY_LAYOUT>
+			</LIBRARY_DESCRIPTOR>
+		</DESIGN>
+		<PLATFORM>
+			<ILLUMINA>
+				<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+			</ILLUMINA>
+		</PLATFORM>
+	</EXPERIMENT>
+</EXPERIMENT_SET></experiment_xml>
+		<run_xml>
+<RUN_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.run.xsd?view=co">
+	<RUN center_name="QCMG" alias="QCMG:C270DACXX">
+		<EXPERIMENT_REF refcenter="QCMG" refname="QCMG:C270DACXX:Library_NEW5709A2312AR2"></EXPERIMENT_REF>
+	</RUN>
+	<RUN center_name="QCMG" alias="QCMG:C270DACXX">
+		<EXPERIMENT_REF refcenter="QCMG" refname="QCMG:C270DACXX:Library_NEW5709A2312AR2"></EXPERIMENT_REF>
+	</RUN>
+	<RUN center_name="QCMG" alias="QCMG:C270DACXX">
+		<EXPERIMENT_REF refcenter="QCMG" refname="QCMG:C270DACXX:Library_NEW5709A2312AR2"></EXPERIMENT_REF>
+	</RUN>
+	<RUN center_name="QCMG" alias="QCMG:C270DACXX">
+		<EXPERIMENT_REF refcenter="QCMG" refname="QCMG:C270DACXX:Library_NEW5709A2312AR2"></EXPERIMENT_REF>
+	</RUN>
+</RUN_SET></run_xml>
+		<analysis_detail_uri>https://gtrepo-osdc-icgc.annailabs.com/cghub/metadata/analysisDetail/3c978b66-ac63-4aa6-a6d9-82259814f997</analysis_detail_uri>
+		<analysis_submission_uri>https://gtrepo-osdc-icgc.annailabs.com/cghub/metadata/analysisSubmission/3c978b66-ac63-4aa6-a6d9-82259814f997</analysis_submission_uri>
+		<analysis_data_uri>https://gtrepo-osdc-icgc.annailabs.com/cghub/data/analysis/download/3c978b66-ac63-4aa6-a6d9-82259814f997</analysis_data_uri>
+	</Result>
+	<ResultSummary>
+		<downloadable_file_count>2</downloadable_file_count>
+		<downloadable_file_size units="GB">16.54</downloadable_file_size>
+		<state_count>
+			<live>1</live>
+		</state_count>
+	</ResultSummary>
+</ResultSet>

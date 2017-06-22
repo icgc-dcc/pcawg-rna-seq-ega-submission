@@ -1,0 +1,37 @@
+{
+    "analysis": {
+        "analysisCenter": "EBI-EMBL", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-07-29T16:44:11"
+    }, 
+    "sample": {
+        "genderId": "female", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "AOCS-163-2-8", 
+        "region": "", 
+        "subjectId": "AOCS-163", 
+        "organismPart": "", 
+        "collab_metadata_xml": "TopHat2/collab_metadata_xmls/b04df043-d6a6-55bb-9279-7e2a9bba4f22_metadata.xml", 
+        "submittedSpecimenId": "AOCS-163-1", 
+        "caseOrControlId": 0, 
+        "donorId": "DO46581", 
+        "phenotype": "Ovarian Cancer", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.71a10564-1bcb-4308-b0ea-206136702475.TopHat2.v1.bam", 
+            "PCAWG.71a10564-1bcb-4308-b0ea-206136702475.TopHat2.v1.bam.bai"
+        ]
+    }
+}

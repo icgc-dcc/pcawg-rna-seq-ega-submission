@@ -1,0 +1,37 @@
+{
+    "analysis": {
+        "analysisCenter": "MSKCC", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-08-24T00:42:51"
+    }, 
+    "sample": {
+        "genderId": "male", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "RK159_Cancer", 
+        "region": "", 
+        "subjectId": "RK159", 
+        "organismPart": "", 
+        "collab_metadata_xml": "STAR/collab_metadata_xmls/953d2b0e-17df-5d58-9b69-e26081c29c6f_metadata.xml", 
+        "submittedSpecimenId": "RK159_C01", 
+        "caseOrControlId": 0, 
+        "donorId": "DO45259", 
+        "phenotype": "Liver Cancer", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.0a59f9f4-e1db-11e4-9182-a543a5ed4642.STAR.v1.bam", 
+            "PCAWG.0a59f9f4-e1db-11e4-9182-a543a5ed4642.STAR.v1.bam.bai"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "analysis": {
+        "analysisCenter": "MSKCC", 
+        "description": "", 
+        "title": "ICGC PanCancer Analysis of RNA-Seq data", 
+        "analysisTypeId": "0", 
+        "platform": "ILLUMINA", 
+        "experimentTypeId": [
+            "3"
+        ], 
+        "genomeId": 15, 
+        "analysisDate": "2015-08-24T00:40:16"
+    }, 
+    "sample": {
+        "genderId": "female", 
+        "cellLine": "", 
+        "sampleAge": "", 
+        "alias": "AOCS-167-27-X-MD", 
+        "region": "", 
+        "subjectId": "AOCS-167", 
+        "organismPart": "", 
+        "collab_metadata_xml": "STAR/collab_metadata_xmls/921d1b13-343b-5889-ac00-fea372f6162b_metadata.xml", 
+        "submittedSpecimenId": "AOCS-167-16", 
+        "caseOrControlId": 0, 
+        "donorId": "DO46593", 
+        "phenotype": "Ovarian Cancer", 
+        "bioSampleId": "", 
+        "anonymizedName": "", 
+        "sampleDetail": ""
+    }, 
+    "files": {
+        "fileName": [
+            "PCAWG.5c345055-8d45-4eba-a86a-577c1043a1b2.STAR.v1.bam", 
+            "PCAWG.5c345055-8d45-4eba-a86a-577c1043a1b2.STAR.v1.bam.bai"
+        ]
+    }
+}
